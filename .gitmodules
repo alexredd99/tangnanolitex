@@ -1,3 +1,78 @@
 [submodule "third_party/migen"]
 	path = third_party/migen
 	url = https://git.m-labs.hk/M-Labs/migen.git
+[submodule "third_party/pythondata-software-picolibc"]
+	path = third_party/pythondata-software-picolibc
+	url = https://github.com/litex-hub/pythondata-software-picolibc.git
+[submodule "third_party/pythondata-software-compiler_rt"]
+	path = third_party/pythondata-software-compiler_rt
+	url = https://github.com/litex-hub/pythondata-software-compiler_rt.git
+[submodule "third_party/litex"]
+	path = third_party/litex
+	url = https://github.com/enjoy-digital/litex.git
+[submodule "third_party/liteiclink"]
+	path = third_party/liteiclink
+	url = https://github.com/enjoy-digital/liteiclink.git
+[submodule "third_party/liteeth"]
+	path = third_party/liteeth
+	url = https://github.com/enjoy-digital/liteeth.git
+[submodule "third_party/litedram"]
+	path = third_party/litedram
+	url = https://github.com/enjoy-digital/litedram.git
+[submodule "third_party/litepcie"]
+	path = third_party/litepcie
+	url = https://github.com/enjoy-digital/litepcie.git
+[submodule "third_party/litesata"]
+	path = third_party/litesata
+	url = https://github.com/enjoy-digital/litesata.git
+[submodule "third_party/litesdcard"]
+	path = third_party/litesdcard
+	url = https://github.com/enjoy-digital/litesdcard.git
+[submodule "third_party/litescope"]
+	path = third_party/litescope
+	url = https://github.com/enjoy-digital/litescope.git
+[submodule "third_party/litejesd204b"]
+	path = third_party/litejesd204b
+	url = https://github.com/enjoy-digital/litejesd204b.git
+[submodule "third_party/litespi"]
+	path = third_party/litespi
+	url = https://github.com/litex-hub/litespi.git
+[submodule "third_party/litei2c"]
+	path = third_party/litei2c
+	url = https://github.com/litex-hub/litei2c.git
+[submodule "third_party/litex-boards"]
+	path = third_party/litex-boards
+	url = https://github.com/litex-hub/litex-boards.git
+[submodule "third_party/pythondata-misc-tapcfg"]
+	path = third_party/pythondata-misc-tapcfg
+	url = https://github.com/litex-hub/pythondata-misc-tapcfg.git
+[submodule "third_party/pythondata-misc-usb_ohci"]
+	path = third_party/pythondata-misc-usb_ohci
+	url = https://github.com/litex-hub/pythondata-misc-usb_ohci.git
+[submodule "third_party/pythondata-cpu-lm32"]
+	path = third_party/pythondata-cpu-lm32
+	url = https://github.com/litex-hub/pythondata-cpu-lm32.git
+[submodule "third_party/pythondata-cpu-mor1kx"]
+	path = third_party/pythondata-cpu-mor1kx
+	url = https://github.com/litex-hub/pythondata-cpu-mor1kx.git
+[submodule "third_party/pythondata-cpu-serv"]
+	path = third_party/pythondata-cpu-serv
+	url = https://github.com/litex-hub/pythondata-cpu-serv.git
+[submodule "third_party/pythondata-cpu-vexriscv"]
+	path = third_party/pythondata-cpu-vexriscv
+	url = https://github.com/litex-hub/pythondata-cpu-vexriscv.git
+[submodule "third_party/pythondata-cpu-vexriscv-smp"]
+	path = third_party/pythondata-cpu-vexriscv-smp
+	url = https://github.com/litex-hub/pythondata-cpu-vexriscv-smp.git
+[submodule "third_party/pythondata-cpu-minerva"]
+	path = third_party/pythondata-cpu-minerva
+	url = https://github.com/litex-hub/pythondata-cpu-minerva.git
+[submodule "third_party/pythondata-cpu-naxriscv"]
+	path = third_party/pythondata-cpu-naxriscv
+	url = https://github.com/litex-hub/pythondata-cpu-naxriscv.git
+[submodule "third_party/pythondata-cpu-sentinel"]
+	path = third_party/pythondata-cpu-sentinel
+	url = https://github.com/litex-hub/pythondata-cpu-sentinel.git
+[submodule "third_party/pythondata-cpu-vexiiriscv"]
+	path = third_party/pythondata-cpu-vexiiriscv
+	url = https://github.com/litex-hub/pythondata-cpu-vexiiriscv.git
