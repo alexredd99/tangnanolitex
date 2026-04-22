@@ -4,4 +4,60 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "litedram",
+    "liteeth",
+    "litei2c",
+    "liteiclink",
+    "litejesd204b",
+    "litepcie",
+    "litesata",
+    "litescope",
+    "litesdcard",
+    "litespi",
+    "litex",
+    "litex-boards",
+    "meson>=1.11.1",
+    "migen",
+    "pythondata-cpu-lm32",
+    "pythondata-cpu-minerva",
+    "pythondata-cpu-mor1kx",
+    "pythondata-cpu-naxriscv",
+    "pythondata-cpu-sentinel",
+    "pythondata-cpu-serv",
+    "pythondata-cpu-vexiiriscv",
+    "pythondata-cpu-vexriscv",
+    "pythondata-cpu-vexriscv-smp",
+    "pythondata-misc-tapcfg",
+    "pythondata-misc-usb_ohci",
+    "pythondata-software-compiler_rt",
+    "pythondata-software-picolibc",
+]
+
+[tool.uv.sources]
+litedram = { path = "third_party/litedram", editable = true }
+liteeth = { path = "third_party/liteeth", editable = true }
+litei2c = { path = "third_party/litei2c", editable = true }
+liteiclink = { path = "third_party/liteiclink", editable = true }
+litejesd204b = { path = "third_party/litejesd204b", editable = true }
+litepcie = { path = "third_party/litepcie", editable = true }
+litesata = { path = "third_party/litesata", editable = true }
+litescope = { path = "third_party/litescope", editable = true }
+litesdcard = { path = "third_party/litesdcard", editable = true }
+litespi = { path = "third_party/litespi", editable = true }
+litex = { path = "third_party/litex", editable = true }
+litex-boards = { path = "third_party/litex-boards", editable = true }
+migen = { path = "third_party/migen" }
+pythondata-cpu-lm32 = { path = "third_party/pythondata-cpu-lm32", editable = true }
+pythondata-cpu-minerva = { path = "third_party/pythondata-cpu-minerva", editable = true }
+pythondata-cpu-mor1kx = { path = "third_party/pythondata-cpu-mor1kx", editable = true }
+pythondata-cpu-naxriscv = { path = "third_party/pythondata-cpu-naxriscv", editable = true }
+pythondata-cpu-sentinel = { path = "third_party/pythondata-cpu-sentinel", editable = true }
+pythondata-cpu-serv = { path = "third_party/pythondata-cpu-serv", editable = true }
+pythondata-cpu-vexiiriscv = { path = "third_party/pythondata-cpu-vexiiriscv", editable = true }
+pythondata-cpu-vexriscv = { path = "third_party/pythondata-cpu-vexriscv", editable = true }
+pythondata-cpu-vexriscv-smp = { path = "third_party/pythondata-cpu-vexriscv-smp", editable = true }
+pythondata-misc-tapcfg = { path = "third_party/pythondata-misc-tapcfg", editable = true }
+pythondata-misc-usb_ohci = { path = "third_party/pythondata-misc-usb_ohci", editable = true }
+pythondata-software-compiler_rt = { path = "third_party/pythondata-software-compiler_rt", editable = true }
+pythondata-software-picolibc = { path = "third_party/pythondata-software-picolibc", editable = true }
